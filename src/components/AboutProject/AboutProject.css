@@ -64,8 +64,10 @@
 }
 
 .about-project__item {
-  margin: 20px 0;
-  font-size: 17px;
+  margin: 30px 0;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0;
   background-color: #2b88e044;
 }
 
