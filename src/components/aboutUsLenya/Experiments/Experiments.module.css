@@ -1,0 +1,41 @@
+.experiments {
+   display: flex;
+   gap: 30px;
+}
+
+.experiment {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px 20px;
+   border-bottom: 1px solid #9900FF;
+   box-shadow: 0px 8px 10px -2px rgba(189, 191, 193, 0.2);
+   border-radius: 5px;
+   transition: 0.1s;
+}
+
+.experiment:hover {
+   cursor: pointer;
+   transform: translateY(-5px);
+}
+
+.experiment img {
+   width: 50%;
+}
+
+.experimentTitle {
+   margin-top: 15px;
+   font-size: 20px;
+}
+
+.experimentText {
+   margin-top: 15px;
+   font-size: 15px;
+   text-align: center;
+}
+
+@media (max-width: 1200px) {
+   .experiments {
+      flex-direction: column;
+   }
+}

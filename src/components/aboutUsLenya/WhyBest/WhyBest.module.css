@@ -1,0 +1,29 @@
+.whyBestItems {
+   display: flex;
+   gap: 30px;
+}
+
+.whyBestItem {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 20px;
+
+   border: 1px solid #76D934;
+   border-radius: 5px;
+}
+
+.whyBestItem img {
+   width: 30%;
+}
+
+.whyBestItemTitle {
+   margin-top: 10px;
+   font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+   .whyBestItems {
+      flex-direction: column;
+   }
+}
