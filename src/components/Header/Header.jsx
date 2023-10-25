@@ -24,7 +24,7 @@ const Header = ({ setSideBar }) => {
         <nav className='header__nav'>
           <NLink 
             addtlClass={'header__nav-link'} 
-            wayTo={'/about-us'} 
+            wayTo={'/'} 
             title={resources_ru.about_us} 
           />
           <NLink 

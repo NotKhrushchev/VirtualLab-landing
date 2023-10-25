@@ -5,8 +5,8 @@ import './App.css';
 import { Footer } from '../Footer/Footer';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { sideBarLinks } from '../../utils/constants';
-import NotFoundPage from '../NotFoundPage/NotFoundPage';
 import { AboutProject } from '../AboutProject/AboutProject';
+import AboutUs from '../AboutUs/AboutUs';
 
 /** Корневой компонент */
 function App() {
@@ -23,8 +23,8 @@ function App() {
           element={<AboutProject />} 
         />
         <Route 
-          path='/*' 
-          element={<NotFoundPage />} 
+          path='/' 
+          element={<AboutUs />} 
         />
       </Routes>
       <BurgerMenu 
