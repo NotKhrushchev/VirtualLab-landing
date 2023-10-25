@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.resource {
+  background: #F5F5F5;
+  border-radius: 12px;
+  display: flex;
+  padding: 20px;
+  min-height: 130px;
+
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.resourceIconContainer {
+  padding: 8px;
+  background: #FFF;
+  border-radius: 12px;
+}
+
+.resourceIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.resourceTextContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+  flex: 1;
+}
+
+.resourceTitle {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.resourceSubtitle {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.buttonContainer {
+  margin-top: 8px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttonDownload {
+  background: #0061FE;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  text-decoration: none;
+}

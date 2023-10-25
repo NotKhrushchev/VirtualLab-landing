@@ -1,6 +1,6 @@
 import classes from "./AboutUsLine1.module.css";
 
-import photo from '../../../images/univerpoliteh.png'
+import photo from '../../../../images/univerpoliteh.png'
 
 export const AboutUsLine1 = () => {
   return (

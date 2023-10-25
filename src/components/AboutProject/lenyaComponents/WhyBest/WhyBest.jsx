@@ -1,6 +1,6 @@
 import classes from "./WhyBest.module.css";
 
-import fake from "../../../images/fake.png";
+import fake from "../../../../images/fake.png";
 
 export const WhyBest = () => {
   return (

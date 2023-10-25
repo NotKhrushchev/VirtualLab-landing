@@ -1,6 +1,6 @@
 import classes from "./Feeds.module.css";
 
-import fake from "../../../images/fake.png";
+import fake from "../../../../images/fake.png";
 
 export const Feeds = () => {
   return (
@@ -8,7 +8,7 @@ export const Feeds = () => {
       <div className={classes.feed}>
         <img src={fake} alt="" />
         <div className={classes.textWrapper}>
-          <div className={classes.feedName}>Експеримент</div>
+          <div className={classes.feedName}>Эксперимент</div>
           <span className={classes.feedText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             sapiente, iure aperiam nam, eveniet temporibus quae fugit blanditiis
@@ -20,7 +20,7 @@ export const Feeds = () => {
       <div className={classes.feed}>
         <img src={fake} alt="" />
         <div className={classes.textWrapper}>
-          <div className={classes.feedName}>Експеримент</div>
+          <div className={classes.feedName}>Эксперимент</div>
           <span className={classes.feedText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             sapiente, iure aperiam nam, eveniet temporibus quae fugit blanditiis
@@ -32,7 +32,7 @@ export const Feeds = () => {
       <div className={classes.feed}>
         <img src={fake} alt="" />
         <div className={classes.textWrapper}>
-          <div className={classes.feedName}>Експеримент</div>
+          <div className={classes.feedName}>Эксперимент</div>
           <span className={classes.feedText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             sapiente, iure aperiam nam, eveniet temporibus quae fugit blanditiis
@@ -44,7 +44,7 @@ export const Feeds = () => {
       <div className={classes.feed}>
         <img src={fake} alt="" />
         <div className={classes.textWrapper}>
-          <div className={classes.feedName}>Експеримент</div>
+          <div className={classes.feedName}>Эксперимент</div>
           <span className={classes.feedText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             sapiente, iure aperiam nam, eveniet temporibus quae fugit blanditiis
